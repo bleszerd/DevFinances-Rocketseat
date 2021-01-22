@@ -1,0 +1,129 @@
+/* GLOBAL */
+
+:root {
+    --background: #dedede;
+    --soft-dark: #0d101f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--background);
+}
+
+.section-title {
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+}
+
+/* Header */
+
+header {
+    background: #22460a;
+    padding: 2rem 0 9rem;
+    text-align: center;
+}
+
+#logo {
+    color: white;
+    font-weight: 200;
+    font-size: 1.8rem;
+}
+
+/* Main */
+
+main {
+    width: min(950px, 90vw);
+    margin: auto;
+    margin-bottom: 8rem;
+}
+
+/* Balance */
+
+#balance {
+    margin-top: -6rem;
+}
+
+#balance h2 {
+    color: white;
+}
+
+/* Card */
+
+.card {
+    background: white;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: .3rem;
+}
+
+.card h3 {
+    font-size: .8rem;
+    font-weight: normal;
+    padding: 0 0 1.2rem 0;
+}
+
+.card p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.card.total {
+    background: #1fa51f;
+    color: white;
+}
+
+/* Transitions */
+
+#transitions h2 {
+    color: var(--soft-dark);
+}
+
+#transitions table {
+    width: 100%;
+    margin: auto;
+    border-spacing: 0 0.5rem;
+    text-align: left;
+}
+
+#transitions table tr {
+    background: #cfcfcf;
+    color: var(--soft-dark);
+}
+
+#transitions table tr th {
+    opacity: .6;
+    font-weight: 400;
+}
+
+
+#transitions table tr td {
+    opacity: .9;
+    font-weight: 400;
+}
+
+#transitions table tr th, td {
+    padding: .8rem .8rem;
+    color: var(--soft-dark);
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+#transitions table tr th:first-child, 
+#transitions table tr td:first-child {
+    border-radius: .3rem 0 0 .3rem;
+}
+
+#transitions .expanse {
+    color: #e92929
+}
+
+#transitions .income {
+    color: #12a454
+}
