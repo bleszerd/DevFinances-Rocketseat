@@ -14,10 +14,10 @@ const Modal = {
 
 const Storage = {
     get(){
-        return JSON.parse(sessionStorage.getItem("dev.finances:transactions")) || []
+        return JSON.parse(localStorage.getItem("dev.finances:transactions")) || []
     },
     set(transactions){
-        sessionStorage.setItem("dev.finances:transactions", JSON.stringify(transactions))
+        localStorage.setItem("dev.finances:transactions", JSON.stringify(transactions))
     },
 }
 
